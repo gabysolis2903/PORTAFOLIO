@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: url('https://p0.pikist.com/photos/682/861/flowers-black-and-white-red-view-blossom-flower-dark-plant-prosper.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lin {
+    padding: 20px;
+    background-color: rgb(247, 99, 173);
+    width: 100%;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.form {
+    font-size: 20pt;
+    padding: 20PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5px;
+}
+
+.form button {
+    font-size: 18pt;
+    padding: 4px 8px;
+    border: none;
+    background-color: lightsteelblue;
+    cursor: pointer;
+}

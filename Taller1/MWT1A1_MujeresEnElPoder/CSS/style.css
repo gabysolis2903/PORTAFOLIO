@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+h1 {
+    color: rgb(32, 9, 121);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    
+}
+body{
+    background-image: url(Logot.png);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(116,64,237,1) 41%, rgba(207,60,235,0.7595413165266106) 46%, rgba(186,16,214,0.3533788515406162) 70%, rgba(193,22,218,0.865983893557423) 100%);
+}
+nav{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center ;}
+
+table{padding: 15px;}
+
+.tabla2{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding: 5px;
+    }
+
+.p {
+    color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: cyan;
+    padding: 20px;
+    background-color:rgb(63,94,251);
+    color:inherit ;
+}
+
+.p:hover{
+    background-color: rgb(161, 161, 240);
+    color: black;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'Fredoka One', cursive;
+}
+
+.nav-social{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+video{
+    display: flex;
+    margin: auto;
+    padding:25px;
+     
+}
+
+#lin{
+      padding: 10px;
+      background-color: rgb(247, 99, 173);
+      width: 100%;
+      text-align: center;
+      font-family: 'Merienda', cursive;
+  }
+

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(32, 9, 121);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body {
+    background-image: url(Logot.png);
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(116, 64, 237, 1) 41%, rgba(207, 60, 235, 0.7595413165266106) 46%, rgba(186, 16, 214, 0.3533788515406162) 70%, rgba(193, 22, 218, 0.865983893557423) 100%);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 1px;
+}
+
+.head1 {
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-content: center;
+    margin: auto;
+}
+
+.head1>img {
+    width: 70%;
+}
+
+.head2 {
+    align-self: center;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-gap: 5px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;
+    border-top: 8px rgb(133, 128, 128) solid;
+    border-left: 8px rgb(133, 128, 128) solid;
+    border-right: 8px rgb(31, 29, 29) solid;
+    border-bottom: 8px rgb(31, 29, 29) solid;
+}
+
+.Logot {
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px black solid;
+}
+
+.Logot>img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 90%;
+}
+
+.p {
+    color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: cyan;
+    padding: 20px;
+    background-color: rgb(63, 94, 251);
+    color: inherit;
+}
+
+.p:hover {
+    background-color: rgb(161, 161, 240);
+    color: black;
+}
+
+.nav-social {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'Fredoka One', cursive;
+}
+
+video {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+}
+
+#lin {
+    padding: 10px;
+    background-color: rgb(247, 99, 173);
+    width: 100%;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
